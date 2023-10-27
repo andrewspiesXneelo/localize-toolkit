@@ -436,3 +436,12 @@ follows:
 // Returns "Hi John" if language is "en" or "Bonjour John" if language is "fr".
 const translatedPhrase = staticTranslate.t('hi_name', {name: 'John'});
 ```
+
+## Patch Notes
+
+### 2.4.0
+
+- Bump peerDependencies package versions to be compatible with more recent
+  versions of React.
+- Bump types versions to match
+- Bump eslint versions to match

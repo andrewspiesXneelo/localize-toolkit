@@ -1,6 +1,6 @@
 {
   "name": "localize-toolkit",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "main": "lib/index.js",
   "typing": "lib/index.d.ts",
   "author": {
@@ -27,17 +27,17 @@
     "@testing-library/react": "^8.0.4",
     "@types/jest": "^24.0.6",
     "@types/node-polyglot": "^0.4.33",
-    "@types/react": "^16.8.4",
-    "@types/react-dom": "^16.8.2",
-    "@typescript-eslint/eslint-plugin": "^1.4.0",
-    "@typescript-eslint/parser": "^1.4.0",
+    "@types/react": "^17.0.69",
+    "@types/react-dom": "^17.0.22",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^24.1.0",
-    "eslint": "^6.0.1",
+    "eslint": "^8.52.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-jest": "^22.3.0",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.5.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
     "react": "^16.8.2",
@@ -49,7 +49,7 @@
     "node-polyglot": "^2.3.0"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": ">=16.8.0 || ^17.0.0",
+    "react-dom": ">=16.8.0 || ^17.0.0"
   }
 }
